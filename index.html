@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhiLack Pharma LTD</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Roboto:wght@900&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="img/Navi.css" />
+<style>
+    /* CSS Reset */
+    body{
+        font-family:'Merriweather', serif;
+      margin: 0px;
+      padding: 0px;
+     background: url(img/pexels-alena-shekhovtcova-6074958.jpg);
+      background-size: cover;
+      height: 1500px;
+       }
+       .left{
+        position: absolute;
+        left:34px;
+        top: 20px;
+        display: inline-block;
+        color: rgb(0, 0, 0);
+        /* border: 2px salmon; */
+       }
+       .left img{
+        width: 270px ;
+        /* filter: invert(50%); */
+       }
+       .left div{
+        text-align: center;
+       }
+       .mid{
+        display: block;
+        width: 33%;
+        color: rgb(0, 0, 0);
+        margin: 20px auto;
+        /* border: 2px plum; */
+       }
+       .right{
+        position: absolute;
+        right: 34px;
+        top: 60px;
+        display: inline-block;
+        color: rgb(0, 0, 0);
+        /* border: 2px purple */
+       }
+       .navbar{
+        display: inline-block;
+       background: #000000;
+       margin: 10px 10px;
+       padding: 30px 2px;
+       border-radius: 50px;
+       }
+       .navbar li{
+        display: inline-block;
+        font-size: 25px;
+       }
+       .navbar li a {
+        color:  rgb(245, 245, 245);
+        text-decoration: none;
+        padding: 34px 23px;
+       }
+       .container1 {
+        color: #fffafa;
+       }
+       .container{
+        color: #ffffff;
+       }
+       .navbar li a:hover , .navbar li a.active{
+         text-decoration: underline;
+         color: rgb(255, 255, 255);
+       }
+       .btn{
+        font-family: 'Merriweather', serif;
+        margin: 0px 9px;
+        color:rgb(253, 253, 249) ;
+        background-color: rgb(0, 0, 0);
+        font-size: 25px;
+        padding: 3px 34px;
+        border: 2px rgb(0, 0, 0);
+        border-radius: 20px;
+        cursor: pointer;
+       }
+       .btn:hover{
+        background-color: rgb(132, 125, 125);
+       }
+       .container{
+        border: 2px solid rgb(0, 0, 0);
+        margin: 105px 36px;
+        padding: 52px 42px;
+        width: 33%;
+        border-radius: 40px;
+        background-color: rgb(0, 0, 0);
+       }
+       .container1{
+        border: 2px solid rgb(0, 0, 0);
+        margin: 105px 36px;
+        padding: 72px 42px;
+        width: 33%;
+        border-radius: 40px;
+        background-color: rgb(0, 0, 0);
+        position: absolute;
+        top: 140px;
+        right: 5%;
+        font-size: larger;
+        font-style: italic;
+       }
+       .container1 h1{
+        text-align: center;
+       }
+       .form-group input{
+        text-align: center;
+        display: block;
+        width: 334px;
+        padding: 10px;
+        border: 2px solid rgb(5, 4, 4);
+        margin: 6px auto;
+        font-size: 25px;
+        border-radius: 20px;
+        font-family:'Merriweather', serif; 
+        align-content: center;
+       }
+       .container h1{
+        text-align:center ;
+       }
+       .container button{
+        display: block;
+        width:47% ;
+        margin: auto;
+       }
+
+
+       html {
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+footer {
+    background: #000000;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    bottom: -450px;
+}
+
+.footer-top-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 48px;
+    margin: 0 auto;
+    padding: 16px;
+    min-height: 160px;
+}
+
+.footer-top-wrapper > section {
+    width: 180px;
+}
+
+h2 {
+    text-align: left;
+    color: #d2d0e6;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+menu li {
+    margin-bottom: 16px;
+}
+
+
+.logo {
+    width: 180px;
+    margin-bottom: 8px;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    width: 180px;
+}
+
+.social-links img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-top {
+    max-width: 800px;
+}
+
+.footer-bottom {
+    height: 60px;
+    margin-top: 48px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #bf18e4;
+    padding: 4px;
+}
+
+.footer-bottom > small {
+    font-size: 16px;
+    margin: 0 4px;
+}
+    </style>
+<body>
+    <header class="header">
+        <!-- for logo -->
+    <div class="left">
+      <img src="img/logo2.png" alt="ERROR">
+      
+    </div>
+    <!-- for navbar -->
+    <div class="mid">
+        <ul class="navbar">
+            <li><a herf="#" >Home</a></li>
+            <li><a herf="#">About Us</a></li>
+            <li><a herf="#">Our Center</a></li>
+            <li><a herf="#">Contact Us</a></li>
+        </ul>
+    </div>
+    <!-- for button -->
+    <div class="right">
+      <button class="btn">Call Us</button>
+      <button class="btn">Email Us</button>
+    </div>
+</header>
+<div class="container">
+
+   <h1>Get Free COVID-19 Vaccine By WhiLack Pharmaceutical LTD.</h1>
+   <form action="noaction.php">
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter your name">
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Age">
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Place">
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Aadhar number">
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter your PhoneNumber">
+    </div>
+    <button class="btn">Submit</button>
+   </form>
+</div>
+   <div class="container1">
+
+    <h1>COVID-19 VACCINATIONs</h1>
+    <p>The COVID-19 vaccination is a critical aspect of global efforts to combat the ongoing pandemic. Medical facilities are at the forefront of administering these vaccinations to individuals in need. They play a crucial role in distributing and administering the vaccines, following the guidelines set by health authorities.<br>
+        <br>
+
+        Medical facilities have set up vaccination centers where individuals can receive their COVID-19 shots safely and efficiently. These centers are staffed by healthcare professionals who are trained in vaccine administration and follow strict protocols to ensure the safety and effectiveness of the vaccination process.<br>
+        <br>
+        The COVID-19 vaccination is a significant step towards controlling the spread of the virus and protecting individuals from severe illness.</p>
+   </div>
+   <footer>
+    <section class="footer-top-wrapper">
+        <section class='footer-top'>
+            <img class="logo" src="img/footer l.jpg" title='Logo' alt='Logo' />
+          
+        </section>
+        <section>
+            <menu>
+                <h2>WhiLack Pharmaceutical LTD.</h2>
+                <li>
+                    <a>For Adults (18+)</a>
+                </li>
+                <li>
+                    <a>For Kids <18  </a>
+                </li>
+               
+            </menu>
+        </section>
+        <section>
+            <menu>
+                <h2>WhiLack Cloud</h2>
+                <li>
+                    <a>Private Data Detector</a>
+                </li>
+                <li>
+                    <a>Duplicates Id Detector</a>
+                </li>
+            </menu>
+        </section>
+        <section>
+            <menu>
+                <h2>Company</h2>
+                <li>
+                    <a>Blog</a>
+                </li>
+                <li>
+                    <a>About Us</a>
+                </li>
+                <li>
+                    <a>Contact</a>
+                </li>
+            </menu>
+        </section>
+    </section>
+    <section class="footer-bottom">
+            <small>© WhiLack Pharmaceutical Ltd. 2023 All rights reserved</small>
+    </section>
+</footer>
+</body>
+</html>
